@@ -1,4 +1,4 @@
-# Protein-novelty and negative-sampling controls for PPI benchmarks
+# A framework for Protein-novelty and negative-sampling controls for PPI benchmarks
 
 Code, data splits, constructed negative sets, sample-level predictions, tables and figures
 supporting the manuscript:
