@@ -494,10 +494,9 @@ tests/                      pytest suite
 
 ## 13. Citation, license and data terms
 
-If you use this code or the controls, please cite the manuscript above ([CITATION TO BE ADDED]).
+If you use this code for controls, please cite the manuscript above ([CITATION TO BE ADDED]).
 
-- **Code license:** [OSI-APPROVED LICENSE — TO BE ADDED BY AUTHORS]
-- **Archive:** [RELEASE TAG / ZENODO DOI]
+
 - **Data:** the Guo yeast benchmark (Guo *et al.*, 2008, *Nucleic Acids Res.* 36:3025) and
   the multi-species benchmark are redistributed for reproducibility and remain subject to
   their original terms. Taxonomy annotations derive from UniProtKB and NCBI.
