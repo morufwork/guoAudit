@@ -1,0 +1,17 @@
+{
+  "species": "ecoli",
+  "variant": "n2_exact",
+  "representation": "aac_ctd",
+  "model": "logistic_regression",
+  "n_train": 8322,
+  "n_test": 2082,
+  "roc_auc": 0.5657567211881933,
+  "pr_auc": 0.6282410667242988,
+  "f1": 0.6475471698113208,
+  "mcc": 0.05226645865315556,
+  "balanced_accuracy": 0.5240552735476594,
+  "accuracy": 0.5513928914505284,
+  "precision": 0.5844686648501363,
+  "recall": 0.7258883248730964,
+  "specificity": 0.32222222222222224
+}

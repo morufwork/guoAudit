@@ -1,0 +1,17 @@
+{
+  "species": "celegans",
+  "variant": "n2",
+  "representation": "esm2_mean",
+  "model": "mlp",
+  "n_train": 6320,
+  "n_test": 1580,
+  "roc_auc": 0.5963996154462425,
+  "pr_auc": 0.6076173739798022,
+  "f1": 0.573055028462998,
+  "mcc": 0.14556973687693894,
+  "balanced_accuracy": 0.5727848101265822,
+  "accuracy": 0.5727848101265823,
+  "precision": 0.572692793931732,
+  "recall": 0.5734177215189873,
+  "specificity": 0.5721518987341773
+}

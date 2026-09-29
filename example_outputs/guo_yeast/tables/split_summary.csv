@@ -1,0 +1,6 @@
+regime,train_pairs,test_pairs,train_positive,test_positive,train_proteins,test_proteins,test_components,exact_pair_overlap,reversed_pair_overlap,protein_overlap,sequence_group_overlap,labels_valid,passed,cluster_overlap
+R0,8931,2233,4465,1116,2497,2080,97,0,0,2080,2078,True,True,
+R1,5703,1426,2869,740,1997,1561,178,0,0,1561,1560,True,True,
+R2,5703,3570,2869,1746,1997,2164,2,0,0,1667,1663,True,True,
+R3,5703,462,2869,223,1997,420,19,0,0,0,0,True,True,
+R3-C,7043,445,3561,205,1996,420,22,0,0,0,0,True,True,0.0

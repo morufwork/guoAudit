@@ -1,0 +1,5 @@
+species,variant,train_positive,train_negative,test_positive,test_negative,train_proteins,test_proteins,overlapping_proteins,pair_overlap
+celegans,n0,3160,3131,790,783,2291,1039,711,0
+celegans,n2,3160,3160,790,790,2490,1359,1226,0
+celegans,n2_exact,3160,2602,790,651,2447,1301,1130,0
+celegans,n2_nn,3160,3160,790,790,2492,1337,1211,0

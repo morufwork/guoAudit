@@ -1,0 +1,23 @@
+# Versions used for the manuscript analyses (Python 3.10). Newer patch releases should work.
+# Minimal set for ppi_benchmark_controls.py: numpy, pandas, scipy, scikit-learn,
+# matplotlib, threadpoolctl (xgboost and h5py optional).
+numpy==2.2.6
+pandas==2.3.3          # >= 2.2 required (groupby.apply include_groups)
+scipy==1.15.3
+scikit-learn==1.7.2
+threadpoolctl==3.6.0
+matplotlib==3.10.9
+networkx==3.4.2
+biopython==1.88
+pyyaml==6.0.3
+joblib==1.5.3
+tqdm==4.70.0
+h5py==3.16.0
+xgboost==3.2.0
+pytest==9.1.1
+
+# Neural architectures and protein-language-model embeddings (CPU build is sufficient):
+#   pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
+transformers==5.15.1
+sentencepiece          # ProtT5 tokenizer
+protobuf               # ProtT5 tokenizer conversion

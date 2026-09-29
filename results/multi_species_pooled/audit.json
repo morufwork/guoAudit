@@ -1,0 +1,42 @@
+{
+  "dimensions": {
+    "n_proteins": 11529,
+    "n_pairs": 65918,
+    "n_positive": 32959,
+    "n_negative": 32959
+  },
+  "integrity": {
+    "missing_sequences": 0,
+    "duplicate_protein_ids": 0,
+    "duplicated_pairs_exact_rows": 810,
+    "reverse_duplicate_pair_rows": 817,
+    "conflicting_label_rows": 0,
+    "self_interactions": 1279,
+    "pairs_referencing_unknown_proteins": 0
+  },
+  "original_split_audit": {
+    "train_pairs": 52734,
+    "test_pairs": 13184,
+    "train_unique_proteins": 10612,
+    "test_unique_proteins": 6078,
+    "protein_overlap_count": 5161,
+    "protein_overlap_fraction_of_test": 0.8491280026324449,
+    "note": "Naive pre-supplied split, protein overlap expected -- same status as the yeast benchmark's train_cmap/test_cmap split (Section 2.1)."
+  },
+  "canonicalization": {
+    "raw_pair_count": 65918,
+    "canonical_pair_count": 64103,
+    "exact_duplicate_pairs_dropped": 536,
+    "self_interactions_dropped": 1279,
+    "canonical_label_balance": {
+      "positive": 31678,
+      "negative": 32425
+    }
+  },
+  "degree_distribution": {
+    "positive_mean_pair_associated_degree": 25.25743418145085,
+    "n0_mean_pair_associated_degree": 6.774757131842714,
+    "mean_diff": 18.482677049608135,
+    "n_proteins_zero_positive_degree": 324
+  }
+}

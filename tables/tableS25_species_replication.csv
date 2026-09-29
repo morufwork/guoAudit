@@ -1,0 +1,4 @@
+Species,Proteins,Positive pairs,N0 pairs,Total pairs,Zero-degree proteins
+C. elegans,2629,3950,3914,7864,11
+D. melanogaster,7041,21742,21046,42788,14
+E. coli,1823,5907,6954,12861,303

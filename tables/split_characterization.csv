@@ -1,0 +1,9 @@
+split,n_train_pairs,n_test_pairs,n_train_proteins,n_test_proteins,n_train_pos,n_train_neg,n_test_pos,n_test_neg,test_connected_components,test_largest_component_size,test_mean_degree,test_median_degree,pct_test_proteins_with_train_homolog_50pct,pct_test_proteins_with_train_homolog_40pct,pct_test_proteins_with_train_homolog_30pct,pct_test_proteins_with_train_homolog_20pct
+R0,8931,2233,2497,2080,4465,4466,1116,1117,97,1818,4.7,5,100.0,100.0,100.0,100.0
+R1,5703,1426,1997,1561,2869,2834,740,686,178,1034,4.73,5,100.0,100.0,100.0,100.0
+R2,5703,3570,1997,2164,2869,2834,1746,1824,2,2162,4.58,5,78.9,79.9,80.6,81.3
+R3,5703,462,1997,420,2869,2834,223,239,19,377,4.6,5,8.6,13.1,16.2,18.8
+R3-hom50,7228,454,2001,402,3605,3623,221,233,15,363,4.75,5,0.0,3.2,8.0,11.9
+R3-hom40,7308,425,2008,407,3748,3560,198,227,19,360,4.4,4,0.0,0.0,2.9,6.9
+R3-hom30,6970,495,1975,448,3490,3480,250,245,19,401,4.62,5,0.0,0.0,0.0,8.5
+R3-hom20,7042,455,1990,416,3498,3544,236,219,14,375,4.86,5,0.0,0.0,0.2,0.0

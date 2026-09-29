@@ -1,0 +1,5 @@
+{
+  "n2_size": 5581,
+  "n6_size": 5581,
+  "note": "N6 draws both decoy endpoints fresh from the degree-decile-matched protein pool (sample_two_sided_matched_negatives), unlike N2's one-sided substitution (sample_matched_negatives), which always anchors one decoy endpoint at a real positive's own protein. Comparable N2-vs-N6 collapse isolates degree matching from the substitution mechanism itself."
+}

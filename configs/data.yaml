@@ -1,0 +1,29 @@
+# Paths and schema for the Guo yeast PPI benchmark.
+# All paths are relative to the repository root.
+
+raw_dir: data/raw/yeast
+proteins_file: data/raw/yeast/dictionary/protein.dictionary.tsv
+pairs_file: data/raw/yeast/actions/protein.actions.tsv
+
+# Pre-supplied benchmark split (naive random split — has protein overlap
+# between its train/test sides; use only as the conventional
+# baseline reference, never as a leakage-resistant split).
+original_split:
+  train_file: data/raw/yeast/actions/train_cmap.actions.tsv
+  test_file: data/raw/yeast/actions/test_cmap.actions.tsv
+
+# proteins_file has no header: columns are [protein_id, sequence]
+proteins_columns: [protein_id, sequence]
+
+# pairs_file has no header: columns are [protein_a, protein_b, label]
+pairs_columns: [protein_a, protein_b, label]
+
+expected:
+  n_proteins: 2497
+  n_pairs: 11188
+  n_positive: 5594
+  n_negative: 5594
+
+valid_amino_acids: "ACDEFGHIKLMNPQRSTVWY"
+
+seed: 42

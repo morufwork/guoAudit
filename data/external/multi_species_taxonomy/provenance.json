@@ -1,0 +1,10 @@
+{
+  "taxonomy_sources": [
+    "https://rest.uniprot.org/uniprotkb/search",
+    "https://rest.uniprot.org/unisave/",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+  ],
+  "policy": "Use accession taxonomy; archived version 1 for retired UniProt entries; exact sequence transfer only if uniquely assigned among resolved benchmark records; exclude other and unresolved organisms and cross-species pairs. E. coli strain taxa consolidated.",
+  "input_proteins": 11529,
+  "input_pairs": 64103
+}

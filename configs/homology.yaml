@@ -1,0 +1,23 @@
+# MMseqs2 sequence-homology-controlled splits.
+
+seed: 42
+mmseqs_binary: tools/mmseqs/bin/mmseqs
+
+# Sequence identity thresholds.
+thresholds: [0.50, 0.40, 0.30, 0.20]
+
+# Coverage requirement (Rule: "must be defined and reported explicitly").
+# Left at MMseqs2's own defaults (-c 0.8 --cov-mode 0, bidirectional
+# alignment coverage) so only --min-seq-id is varied across thresholds —
+# isolates the effect of the identity threshold itself.
+coverage: 0.8
+cov_mode: 0
+cluster_mode: 0
+sensitivity: 4.0
+seq_id_mode: 0
+
+# Fraction of clusters (at each threshold, independently) assigned to the
+# held-out pool. Only "both train-pool" / "both test-pool" pairs are kept
+# (mixed pairs dropped) — this is the R3-analog "both-unseen-and-dissimilar"
+# test point needed for the generalization degradation curve.
+test_cluster_pool_fraction: 0.20

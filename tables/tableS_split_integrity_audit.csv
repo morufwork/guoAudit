@@ -1,0 +1,5 @@
+Split,Train pairs,Test pairs,Train proteins,Test proteins,Exact protein overlap,Exact sequence overlap,Cluster overlap,Pair/reversal overlap,Identity threshold,Coverage query,Coverage target,PASS
+R3-50,7227,450,2004,407,0,0,0,0,0.5,0.8,0.8,True
+R3-40,7111,423,1998,391,0,0,0,0,0.4,0.8,0.8,True
+R3-30,7174,419,2007,394,0,0,0,0,0.3,0.8,0.8,True
+R3-20,7043,445,1996,420,0,0,0,0,0.2,0.8,0.8,True

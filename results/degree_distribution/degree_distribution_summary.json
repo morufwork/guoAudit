@@ -1,0 +1,6 @@
+{
+  "note": "Fuller characterization of Section 3.5's mean pair-associated-degree diagnostic: median/IQR/SD per set, and a distributional-comparison suite (KS statistic, Wasserstein distance, standardized mean difference/SMD, identical in formula to Cohen's d) for positives vs. each negative set, plus a distinct-protein-level bootstrap CI for the mean difference.",
+  "smd_balance_check": "Is N2 (decile-matched) actually balanced on degree, not just less imbalanced than N0? SMD(positive vs N2) = 0.0107, far below the propensity-matching literature's 0.1 well-balanced threshold (N0 comparator: 1.1604). No tighter matching scheme (exact/nearest-neighbor -- already explored in results/degree_matching_sensitivity/) is required by this diagnostic.",
+  "positive_n0_combined_graph_n_components": 1,
+  "why_not_pair_cluster_ci": "The positive and N0 pair sets share so many protein endpoints that their combined graph is a single connected component, making Section 2.8's connected-component cluster bootstrap/jackknife degenerate (G=1) for this comparison; the CI reported here instead resamples distinct proteins, a valid unit with no such degeneracy."
+}

@@ -1,0 +1,26 @@
+# Independent external-benchmark replication.
+# Combined C. elegans / Drosophila / E. coli PPI benchmark, supplied under
+# doc/multi_species/ in a file format identical to the Guo yeast benchmark's
+# raw data (same train_cmap/test_cmap split-file naming as configs/data.yaml),
+# copied into data/raw/multi_species/ to match that convention.
+#
+# This is a compact replication, not a full re-run of the leakage-resistant
+# split framework or the full architecture suite: original
+# supplied negatives (N0-equivalent) vs. degree-matched negatives (N2),
+# a degree-only baseline, Logistic Regression, and one nonlinear sequence
+# model, evaluated on the benchmark's own pre-supplied train/test split.
+
+raw_dir: data/raw/multi_species
+proteins_file: data/raw/multi_species/dictionary/CeleganDrosophilaEcoli.dictionary.tsv
+pairs_file: data/raw/multi_species/actions/CeleganDrosophilaEcoli.actions.tsv
+
+original_split:
+  train_file: data/raw/multi_species/actions/train_cmap.actions.tsv
+  test_file: data/raw/multi_species/actions/test_cmap.actions.tsv
+
+proteins_columns: [protein_id, sequence]
+pairs_columns: [protein_a, protein_b, label]
+
+valid_amino_acids: "ACDEFGHIKLMNPQRSTVWY"
+
+seed: 42

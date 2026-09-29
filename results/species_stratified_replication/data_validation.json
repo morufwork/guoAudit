@@ -1,0 +1,19 @@
+{
+  "prediction_files_validated": 60,
+  "model_rows": 60,
+  "checks": [
+    "within-species endpoints",
+    "canonical unique pairs",
+    "no train/test pair overlap",
+    "identical positive partitions across variants",
+    "saved prediction order and row counts",
+    "recomputed all nine model metrics",
+    "finite probability range",
+    "complete positive/negative split accounting",
+    "no generated negative overlaps a known positive",
+    "no negative self-pairs",
+    "original N0 labels preserved",
+    "pooled taxonomy diagnostic recomputed",
+    "positive-network degrees and SMD/KS/Wasserstein recomputed"
+  ]
+}

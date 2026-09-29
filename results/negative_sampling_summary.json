@@ -1,0 +1,11 @@
+{
+  "negative_set_sizes": {
+    "n0": 5583,
+    "n1": 5581,
+    "n2": 5581,
+    "n3": 5581,
+    "n5": 5581
+  },
+  "N4_localization_aware": "Skipped: this dataset has no GO annotation, subcellular localization, or protein-complex-membership data (confirmed absent in the dataset audit). Constructing localization-aware negatives would require fabricating biological assumptions not supported by the available data.",
+  "terminology_note": "N1/N2/N3/N5 are constructed unknown/unobserved pairs used as negatives for training/evaluation -- not confirmed non-interactions. Only N0 carries whatever evidentiary status the original Guo et al. benchmark gave it (undocumented in the source data)."
+}

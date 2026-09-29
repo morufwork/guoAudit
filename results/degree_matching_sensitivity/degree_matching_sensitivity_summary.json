@@ -1,0 +1,11 @@
+{
+  "negative_set_sizes": {
+    "n0": 5583,
+    "n2_decile": 5581,
+    "n2_exact": 5581,
+    "n2_nn": 5581
+  },
+  "n2_exact_skipped_pairs": 0,
+  "n2_nn_skipped_pairs": 0,
+  "note": "Tests whether N2's decile-matching granularity (Section 2.6) drives the N0-vs-N2 collapse (Section 3.5), by re-running the degree-only baseline's exact protocol (script 24) against exact-degree and nearest-neighbor degree matching in place of decile matching. Propensity-score and kernel matching are not implemented as separate variants: with one scalar confounder, propensity-score nearest-neighbor matching selects the same decoys as N2-nn, and kernel matching produces continuous synthetic controls with no discrete decoy protein to substitute into a real pair."
+}

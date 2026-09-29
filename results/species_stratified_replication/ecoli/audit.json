@@ -1,0 +1,9 @@
+{
+  "species": "ecoli",
+  "organism": "Escherichia coli",
+  "n_proteins": 1823,
+  "n_pairs": 12861,
+  "n_positive": 5907,
+  "n_negative": 6954,
+  "zero_positive_degree": 303
+}

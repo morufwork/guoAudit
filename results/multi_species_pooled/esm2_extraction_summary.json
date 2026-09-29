@@ -1,0 +1,8 @@
+{
+  "n_proteins": 11529,
+  "embedding_dimension": 480,
+  "model_name": "facebook/esm2_t12_35M_UR50D",
+  "max_length": 1022,
+  "n_truncated": 927,
+  "total_extraction_seconds": 3622.3369982242584
+}

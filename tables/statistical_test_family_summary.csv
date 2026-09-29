@@ -1,0 +1,6 @@
+Question,Null hypothesis,Metric,Comparison,N tests,Test,Correction
+Q1a: Is ROC-AUC distinguishable from chance?,ROC-AUC = 0.5,ROC-AUC,"6 models x 2 negative sets (N0, N2)",12,Percentile cluster bootstrap / delete-1-cluster jackknife,"BH, within each method's 44-test family"
+Q1b: Is MCC distinguishable from chance?,MCC = 0,MCC,"6 models x 2 negative sets (N0, N2)",12,Percentile cluster bootstrap / delete-1-cluster jackknife,"BH, within each method's 44-test family"
+Q1c: Is PR-AUC distinguishable from chance?,PR-AUC = test-set prevalence,PR-AUC,"6 models x 2 negative sets (N0, N2)",12,Percentile cluster bootstrap / delete-1-cluster jackknife,"BH, within each method's 44-test family"
+Q2: Does architecture beat baseline?,ΔROC-AUC (Siamese MLP - LR) = 0,ΔROC-AUC,"Siamese MLP vs. LR, same test set, 2 negative sets",2,Paired percentile bootstrap / paired jackknife,"BH, within each method's 44-test family"
+Q3: Does the N0-vs-N2 gap differ from zero?,ROC-AUC(N0) - ROC-AUC(N2) = 0,ΔROC-AUC,"6 models, independent (unpaired) N0 vs. N2 test sets",6,Unpaired percentile bootstrap / unpaired jackknife (Welch-Satterthwaite),"BH, within each method's 44-test family"

@@ -1,0 +1,13 @@
+Species,Set,Train +,Train −,Test +,Test −,Shared proteins
+C. elegans,N0,3160,3131,790,783,711
+C. elegans,N2-decile,3160,3160,790,790,1226
+C. elegans,N2-exact,3160,2602,790,651,1130
+C. elegans,N2-nearest,3160,3160,790,790,1211
+D. melanogaster,N0,17393,16836,4349,4210,3440
+D. melanogaster,N2-decile,17393,17393,4349,4349,4558
+D. melanogaster,N2-exact,17393,16831,4349,4208,4530
+D. melanogaster,N2-nearest,17393,17393,4349,4349,4553
+E. coli,N0,4725,5563,1182,1391,961
+E. coli,N2-decile,4725,4725,1182,1182,870
+E. coli,N2-exact,4725,3597,1182,900,857
+E. coli,N2-nearest,4725,4725,1182,1182,851

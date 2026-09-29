@@ -1,0 +1,13 @@
+{
+  "features": [
+    "<scalar>_sum",
+    "<scalar>_abs_diff",
+    "<scalar>_min",
+    "<scalar>_max"
+  ],
+  "feature_sources": {
+    "degree": "positive_degree from compute_protein_stats (same degree used to construct N2/N5 decoys)",
+    "length": "sequence length from compute_protein_stats -- specificity check: is any single scalar protein property this separable, or is it degree specifically?"
+  },
+  "note": "No sequence content (residues/composition) used either way. Reuses the negative-sampling study's exact seed/splits/negative sets (scripts/11_negative_sampling_study.py) for direct comparability with Table 7."
+}

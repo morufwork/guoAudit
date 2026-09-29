@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-08-22T18:55:40.014113+00:00",
+  "git_commit": "a11bb02586fa33cae3783be49547e8e61632fbf2",
+  "git_dirty": true,
+  "python_version": "3.10.16 | packaged by conda-forge | (main, Dec  5 2024, 14:16:10) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "representation": "ctd",
+    "model": "random_forest",
+    "params": {
+      "n_estimators": 300,
+      "n_jobs": -1
+    },
+    "seed": 42,
+    "n_folds": 5,
+    "fusion": "combined",
+    "representations": [
+      "aac",
+      "ctd",
+      "aac_ctd",
+      "physicochemical"
+    ],
+    "models": {
+      "logistic_regression": {
+        "max_iter": 2000
+      },
+      "random_forest": {
+        "n_estimators": 300,
+        "n_jobs": -1
+      },
+      "xgboost": {
+        "n_estimators": 300,
+        "eval_metric": "logloss"
+      },
+      "mlp": {
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "max_iter": 500,
+        "early_stopping": true
+      }
+    }
+  },
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2",
+    "biopython": "1.88"
+  }
+}

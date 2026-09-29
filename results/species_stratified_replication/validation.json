@@ -1,0 +1,50 @@
+{
+  "prediction_files_validated": 60,
+  "model_rows": 60,
+  "checks": [
+    "within-species endpoints",
+    "canonical unique pairs",
+    "no train/test pair overlap",
+    "identical positive partitions across variants",
+    "saved prediction order and row counts",
+    "recomputed all nine model metrics",
+    "finite probability range",
+    "complete positive/negative split accounting",
+    "no generated negative overlaps a known positive",
+    "no negative self-pairs",
+    "original N0 labels preserved",
+    "pooled taxonomy diagnostic recomputed",
+    "positive-network degrees and SMD/KS/Wasserstein recomputed"
+  ],
+  "document_validation": {
+    "supplementary_tables": 44,
+    "physical_table_panels": 99,
+    "table_cells_verified": 7989,
+    "calibration_prediction_sets_verified": 36,
+    "main_figures": 12,
+    "checks": [
+      "all printed table cells equal source CSV values",
+      "all added model tables retain frozen source values",
+      "paired and unpaired contrast tables retain original correction families",
+      "raw/calibrated MCC compared within same fitted model",
+      "yeast chart counts and positive-degree total",
+      "sequential main figure captions"
+    ],
+    "sha256": {
+      "manuscript/final_manuscrip_v2.docx": "7e1d400a75099fce1a87e42433058b71e05bde066aa4a0760f9f1cab5a12a12c",
+      "manuscript/supplementary_v2.docx": "d9a6a2ed41fce5791d5f698c22fedd12b9d067102d1bc7dae26a48ff42efff2c",
+      "figures/figure_yeast_postaudit.png": "107542dbc286484ac3430ebfee052ccd568ac132bfe84eb47f90b7bd5c466c1e",
+      "tables/tableS34_reporting_completion.csv": "eaa825700fa407ac8802665f7f6979054b1391a15e6f635146b3c2ff561da87f",
+      "tables/tableS35_reporting_completion.csv": "11de11f2e2ee9e3d5d59e2ab2d3520669e7fb43e03f6c2df591b395e9c96a7ce",
+      "tables/tableS36_reporting_completion.csv": "40b661918159ade530b15e0cbbc77f0c2c31a18d4934dd436f6ed586750844ba",
+      "tables/tableS37_reporting_completion.csv": "052012b4580744536f0df1552b3f2da2d5a300d2ef5ae007e438fd72df9ba2ae",
+      "tables/tableS38_reporting_completion.csv": "ef2adf444db760eb6b1c82a7fa55f7fa143636debc70aa09974c87204d12b449",
+      "tables/tableS39_reporting_completion.csv": "0339e163e869d8a4e537565da7e4a5ca97d01a88e39c8854de25e7337b73eda0",
+      "tables/tableS40_reporting_completion.csv": "99ff62065297fb6d374d2a5e83774328fa5190fb52101043d24f10e34e5f0826",
+      "tables/tableS41_reporting_completion.csv": "7866ec2a7dc4428c9d9de619a7a6be7747ce28b1c9735dc9077ac3c1f822dfcb",
+      "tables/tableS42_reporting_completion.csv": "b7cc5ff86d320a904b6cf0fd92b778e5f78bbf511cb1c9ff6768e0c4897e6b57",
+      "tables/tableS43_reporting_completion.csv": "44a8c20b75acf6a79e9a4c12fb21a9204cfcf7c18f4d923c0bcb28ccd4643eeb",
+      "tables/tableS44_reporting_completion.csv": "2e973422fc13827781403ab29be4495be1610dd4d9cd7b7025618201b87c179d"
+    }
+  }
+}

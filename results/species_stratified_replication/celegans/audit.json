@@ -1,0 +1,9 @@
+{
+  "species": "celegans",
+  "organism": "Caenorhabditis elegans",
+  "n_proteins": 2629,
+  "n_pairs": 7864,
+  "n_positive": 3950,
+  "n_negative": 3914,
+  "zero_positive_degree": 11
+}

@@ -1,0 +1,48 @@
+{
+  "note": "N2 regenerated under 30 independent data-generation seeds (sample_seed in 1000..1029), holding the R0/R3 partitions, degree computation, known-pair exclusion set, and model training seed fixed -- isolating sampling-realization variance from the optimization variance scripts/18's 5 retraining seeds already covers.",
+  "n_sample_seeds": 30,
+  "worst_case_check": [
+    {
+      "split": "both_unseen",
+      "model": "degree_only_lr",
+      "n0_roc_auc": 0.9524457286526445,
+      "max_n2_roc_auc_any_seed": 0.5099137324297693,
+      "collapse_holds_in_every_seed": true
+    },
+    {
+      "split": "both_unseen",
+      "model": "logistic_regression",
+      "n0_roc_auc": 0.604124059515545,
+      "max_n2_roc_auc_any_seed": 0.5244223692412878,
+      "collapse_holds_in_every_seed": true
+    },
+    {
+      "split": "both_unseen",
+      "model": "mlp",
+      "n0_roc_auc": 0.6167514118993564,
+      "max_n2_roc_auc_any_seed": 0.5605783345733878,
+      "collapse_holds_in_every_seed": true
+    },
+    {
+      "split": "random",
+      "model": "degree_only_lr",
+      "n0_roc_auc": 0.9624269349172752,
+      "max_n2_roc_auc_any_seed": 0.5149933196493678,
+      "collapse_holds_in_every_seed": true
+    },
+    {
+      "split": "random",
+      "model": "logistic_regression",
+      "n0_roc_auc": 0.7439979033236648,
+      "max_n2_roc_auc_any_seed": 0.44925057446206546,
+      "collapse_holds_in_every_seed": true
+    },
+    {
+      "split": "random",
+      "model": "mlp",
+      "n0_roc_auc": 0.7542360315751762,
+      "max_n2_roc_auc_any_seed": 0.4876495665185795,
+      "collapse_holds_in_every_seed": true
+    }
+  ]
+}

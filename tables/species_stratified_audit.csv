@@ -1,0 +1,4 @@
+species,organism,n_proteins,n_pairs,n_positive,n_negative,zero_positive_degree
+celegans,Caenorhabditis elegans,2629,7864,3950,3914,11
+dmelanogaster,Drosophila melanogaster,7041,42788,21742,21046,14
+ecoli,Escherichia coli,1823,12861,5907,6954,303

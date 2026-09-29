@@ -1,0 +1,11 @@
+Quantity,Value
+Unique pairs,11164.0
+Positive pairs,5581.0
+Constructed negative pairs,5583.0
+Protein identifiers,2497.0
+Observed-positive-graph nodes,2217.0
+Zero-positive-degree proteins,280.0
+"Sequences >1,022 residues",268.0
+Minimum sequence length,55.0
+Median sequence length,461.0
+Maximum sequence length,4910.0

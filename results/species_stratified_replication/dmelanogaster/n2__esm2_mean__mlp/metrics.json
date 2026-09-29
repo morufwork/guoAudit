@@ -1,0 +1,17 @@
+{
+  "species": "dmelanogaster",
+  "variant": "n2",
+  "representation": "esm2_mean",
+  "model": "mlp",
+  "n_train": 34786,
+  "n_test": 8698,
+  "roc_auc": 0.5668130377389505,
+  "pr_auc": 0.5768465066329913,
+  "f1": 0.5323211955877121,
+  "mcc": 0.09353122734224771,
+  "balanced_accuracy": 0.5466773971027823,
+  "accuracy": 0.5466773971027823,
+  "precision": 0.5497305242528172,
+  "recall": 0.515980685214992,
+  "specificity": 0.5773741089905725
+}

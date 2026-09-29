@@ -1,0 +1,7 @@
+{
+  "n_evaluations": 14,
+  "n_below_chance": 6,
+  "n_materially_reversed": 5,
+  "n_near_chance": 5,
+  "interpretation": "Because AUC(1-p) equals 1-AUC(p), inversion alone is algebraic rather than independent evidence. The R0/N2 and R0/N5 class-conditional means and effect sizes support a modest reversed ordering under distribution shift. The R3/N2 logistic-regression value (0.4998) is effectively chance and should not be described as meaningful reversal."
+}

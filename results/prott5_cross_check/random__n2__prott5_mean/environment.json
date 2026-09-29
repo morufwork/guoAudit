@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-08-23T12:20:28.068784+00:00",
+  "git_commit": "aaa003c25b28d262952cac8946f0b5100cafaaea",
+  "git_dirty": true,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "split": "random",
+    "negative_set": "n2",
+    "representation": "prott5_mean"
+  },
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2",
+    "biopython": "1.88"
+  }
+}

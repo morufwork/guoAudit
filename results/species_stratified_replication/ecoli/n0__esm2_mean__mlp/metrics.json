@@ -1,0 +1,17 @@
+{
+  "species": "ecoli",
+  "variant": "n0",
+  "representation": "esm2_mean",
+  "model": "mlp",
+  "n_train": 10288,
+  "n_test": 2573,
+  "roc_auc": 0.9772704879446185,
+  "pr_auc": 0.9807460762948557,
+  "f1": 0.9371772805507745,
+  "mcc": 0.8859051049688801,
+  "balanced_accuracy": 0.9416088560616289,
+  "accuracy": 0.9432568985619899,
+  "precision": 0.9535901926444834,
+  "recall": 0.9213197969543148,
+  "specificity": 0.9618979151689432
+}

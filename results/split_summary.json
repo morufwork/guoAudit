@@ -1,0 +1,93 @@
+{
+  "exclusions": {
+    "one_unseen_pairs_excluded_orphan_train_protein": 3
+  },
+  "random": {
+    "n_train_pairs": 8931,
+    "n_test_pairs": 2233,
+    "train_label_balance": {
+      "0": 4466,
+      "1": 4465
+    },
+    "test_label_balance": {
+      "0": 1117,
+      "1": 1116
+    },
+    "n_train_proteins": 2497,
+    "n_test_proteins": 2080,
+    "n_shared_proteins": 2080,
+    "leakage_checks": {
+      "pair_duplicate_leakage": true,
+      "reverse_pair_leakage": true,
+      "protein_disjointness": true,
+      "group_disjointness": true,
+      "label_integrity": true
+    }
+  },
+  "seen_seen": {
+    "n_train_pairs": 5703,
+    "n_test_pairs": 1426,
+    "train_label_balance": {
+      "1": 2869,
+      "0": 2834
+    },
+    "test_label_balance": {
+      "1": 740,
+      "0": 686
+    },
+    "n_train_proteins": 1997,
+    "n_test_proteins": 1561,
+    "n_shared_proteins": 1561,
+    "leakage_checks": {
+      "pair_duplicate_leakage": true,
+      "reverse_pair_leakage": true,
+      "protein_disjointness": true,
+      "group_disjointness": true,
+      "label_integrity": true
+    }
+  },
+  "one_unseen": {
+    "n_train_pairs": 5703,
+    "n_test_pairs": 3570,
+    "train_label_balance": {
+      "1": 2869,
+      "0": 2834
+    },
+    "test_label_balance": {
+      "0": 1824,
+      "1": 1746
+    },
+    "n_train_proteins": 1997,
+    "n_test_proteins": 2164,
+    "n_shared_proteins": 1667,
+    "leakage_checks": {
+      "pair_duplicate_leakage": true,
+      "reverse_pair_leakage": true,
+      "protein_disjointness": true,
+      "group_disjointness": true,
+      "label_integrity": true
+    }
+  },
+  "both_unseen": {
+    "n_train_pairs": 5703,
+    "n_test_pairs": 462,
+    "train_label_balance": {
+      "1": 2869,
+      "0": 2834
+    },
+    "test_label_balance": {
+      "0": 239,
+      "1": 223
+    },
+    "n_train_proteins": 1997,
+    "n_test_proteins": 420,
+    "n_shared_proteins": 0,
+    "leakage_checks": {
+      "pair_duplicate_leakage": true,
+      "reverse_pair_leakage": true,
+      "protein_disjointness": true,
+      "group_disjointness": true,
+      "label_integrity": true
+    }
+  }
+}

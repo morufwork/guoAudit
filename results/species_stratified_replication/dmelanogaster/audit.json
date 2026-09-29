@@ -1,0 +1,9 @@
+{
+  "species": "dmelanogaster",
+  "organism": "Drosophila melanogaster",
+  "n_proteins": 7041,
+  "n_pairs": 42788,
+  "n_positive": 21742,
+  "n_negative": 21046,
+  "zero_positive_degree": 14
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "2026-08-23T11:38:40.537386+00:00",
+  "git_commit": "e19cf2028d4aed6d7f9dfa5040f4ab5cda4ed141",
+  "git_dirty": true,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "models": [
+      "logistic_regression",
+      "random_forest",
+      "mlp",
+      "siamese_mlp",
+      "attention_fusion",
+      "cross_interaction"
+    ],
+    "negative_sets": [
+      "n0",
+      "n2"
+    ],
+    "split": "both_unseen",
+    "data_seed": 42,
+    "model_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2",
+    "biopython": "1.88"
+  }
+}

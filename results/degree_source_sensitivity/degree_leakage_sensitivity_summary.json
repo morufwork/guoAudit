@@ -1,0 +1,34 @@
+{
+  "note": "Sensitivity check for whether N2's degree computation exposes test-set positive labels. R0 only -- R3 (both-unseen) is not attempted because R3 test-pool proteins have zero edges in the training positive graph by construction, so train-only degree is undefined (uniformly zero) for them, not a meaningful sensitivity variant. See Section 4.3 for the resulting scope statement.",
+  "gap_summary": [
+    {
+      "degree_source": "full_graph",
+      "model": "logistic_regression",
+      "roc_auc_n0": 0.7439979033236648,
+      "roc_auc_n2": 0.41303802470006545,
+      "gap": 0.3309598786235993
+    },
+    {
+      "degree_source": "full_graph",
+      "model": "mlp",
+      "roc_auc_n0": 0.7542360315751762,
+      "roc_auc_n2": 0.46273951281128556,
+      "gap": 0.2914965187638906
+    },
+    {
+      "degree_source": "train_only",
+      "model": "logistic_regression",
+      "roc_auc_n0": 0.7439979033236648,
+      "roc_auc_n2": 0.4395967264278198,
+      "gap": 0.304401176895845
+    },
+    {
+      "degree_source": "train_only",
+      "model": "mlp",
+      "roc_auc_n0": 0.7542360315751762,
+      "roc_auc_n2": 0.4821546074382318,
+      "gap": 0.27208142413694436
+    }
+  ],
+  "collapse_survives_train_only_degree": true
+}

@@ -1,0 +1,3 @@
+{
+  "note": "Nested sequence-vs-degree comparison trains Logistic Regression on IDENTICAL N0 train data, varying only the feature set (sequence-only ESM-2+combined fusion; degree-only 4 symmetric functions, identical to scripts/24_topology_only_baseline.py; concatenation of both), evaluated on N0/N2/N5. Reuses the negative-sampling study's exact seed/splits/negative sets for direct comparability with Table 7 and the topology-only baseline."
+}

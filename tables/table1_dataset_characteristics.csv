@@ -1,0 +1,18 @@
+Characteristic,Value
+Unique proteins (raw),2497.0
+PPI pairs (raw),11188.0
+Positive pairs (raw),5594.0
+"Negative pairs (raw, N0)",5594.0
+Canonical (deduplicated) pairs,11164.0
+Exact duplicate pairs removed,24.0
+Sequence-identity equivalence groups,2492.0
+Non-singleton identical-sequence groups,3.0
+Positive-interaction graph: nodes,2217.0
+Positive-interaction graph: edges,5581.0
+Positive-interaction graph: density,0.00227
+Positive-interaction graph: mean degree,5.03
+Positive-interaction graph: max degree,15.0
+Positive-interaction graph: connected components,98.0
+Positive-interaction graph: largest component size,1631.0
+Clustering coefficient,0.0031
+Proteins with >=1 homolog at 20% identity (fraction),0.2022

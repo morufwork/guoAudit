@@ -1,0 +1,21 @@
+# Negative-sampling bias study.
+#
+# Terminology: none of N1/N2/N3/N5 are
+# "confirmed non-interactions" -- they are constructed unknown/unobserved
+# pairs used as negatives for training/evaluation purposes. Only N0 is the
+# benchmark's own supplied negative set. N4 (localization-aware) is skipped:
+# this dataset has no GO/localization/complex-membership data (confirmed in
+# the dataset audit), so it cannot be scientifically constructed here --
+# recorded as a machine-readable exclusion, not fabricated.
+
+seed: 42
+n_deciles: 10
+test_fraction: 0.20
+
+representation: esm2_mean
+fusion: combined
+model: mlp
+model_params:
+  hidden_layer_sizes: [128, 64]
+  max_iter: 500
+  early_stopping: true

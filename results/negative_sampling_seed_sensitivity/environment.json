@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-08-24T18:11:38.373995+00:00",
+  "git_commit": "a828f3aaf036002b7941352c677d1365c4d859b7",
+  "git_dirty": true,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "n_sample_seeds": 30,
+    "data_seed": 42,
+    "model_seed": 42,
+    "splits": [
+      "random",
+      "both_unseen"
+    ],
+    "models": [
+      "logistic_regression",
+      "mlp",
+      "degree_only_lr"
+    ]
+  },
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2",
+    "biopython": "1.88"
+  },
+  "script": "38_negative_sampling_seed_sensitivity.py"
+}

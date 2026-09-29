@@ -1,0 +1,55 @@
+{
+  "n_fit": 4562,
+  "n_calib": 1141,
+  "n_test": 462,
+  "results": [
+    {
+      "calibration_method": "none",
+      "roc_auc": 0.6413963262472561,
+      "pr_auc": 0.6027151399397692,
+      "f1": 0.5995623632385121,
+      "mcc": 0.2083845413957688,
+      "balanced_accuracy": 0.6042460175994897,
+      "accuracy": 0.6038961038961039,
+      "precision": 0.5854700854700855,
+      "recall": 0.6143497757847534,
+      "specificity": 0.5941422594142259,
+      "brier_score": 0.23443398268398266,
+      "ece": 0.027626262626262606,
+      "calibration_slope": 1.215257821907323,
+      "calibration_intercept": -0.04155198603247127
+    },
+    {
+      "calibration_method": "platt",
+      "roc_auc": 0.6413963262472561,
+      "pr_auc": 0.6027151399397692,
+      "f1": 0.5959367945823928,
+      "mcc": 0.2238471461865041,
+      "balanced_accuracy": 0.6118637071504963,
+      "accuracy": 0.6125541125541125,
+      "precision": 0.6,
+      "recall": 0.5919282511210763,
+      "specificity": 0.6317991631799164,
+      "brier_score": 0.23933890624244245,
+      "ece": 0.07441109507744387,
+      "calibration_slope": 0.5854879696778005,
+      "calibration_intercept": -0.01094091676991787
+    },
+    {
+      "calibration_method": "isotonic",
+      "roc_auc": 0.6438917762725858,
+      "pr_auc": 0.5920020984506695,
+      "f1": 0.6131687242798354,
+      "mcc": 0.19291934013924045,
+      "balanced_accuracy": 0.5955869936394169,
+      "accuracy": 0.5930735930735931,
+      "precision": 0.5665399239543726,
+      "recall": 0.6681614349775785,
+      "specificity": 0.5230125523012552,
+      "brier_score": 0.24358421210469638,
+      "ece": 0.08525387942902095,
+      "calibration_slope": 0.38167365958857413,
+      "calibration_intercept": -0.0223849061854905
+    }
+  ]
+}

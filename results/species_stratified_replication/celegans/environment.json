@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-09-08T22:15:52.202983+00:00",
+  "git_commit": "9d95eea519eabb5b7ae50febb801c53eebcc3880",
+  "git_dirty": true,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-191-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "protocol": "scripts 42/43 within species",
+    "seed": 42,
+    "test_fraction": 0.2,
+    "n_boot": 2000,
+    "fusion": "combined",
+    "models": {
+      "logistic_regression": {
+        "max_iter": 2000
+      },
+      "mlp": {
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "max_iter": 500,
+        "early_stopping": true
+      }
+    }
+  },
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2",
+    "biopython": "1.88"
+  }
+}

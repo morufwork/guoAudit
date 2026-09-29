@@ -1,0 +1,28 @@
+{
+  "raw_pair_count": 11188,
+  "canonical_pair_count": 11164,
+  "exact_duplicate_pairs_dropped": 24,
+  "canonical_pair_label_balance": {
+    "positive": 5581,
+    "negative": 5583
+  },
+  "n_proteins": 2497,
+  "n_sequence_groups": 2492,
+  "non_singleton_sequence_groups": {
+    "744": [
+      "Q06407",
+      "Q06408",
+      "Q06409"
+    ],
+    "1267": [
+      "P43603",
+      "P43604",
+      "P43605"
+    ],
+    "708": [
+      "P43612",
+      "P43613"
+    ]
+  },
+  "policy": "Pairs are stored with protein_a < protein_b; exact duplicate rows dropped, keep-first, no label conflicts existed. Sequence groups must be kept intact (never split across train/test) by every split generator from the split generation onward."
+}

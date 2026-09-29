@@ -1,0 +1,6 @@
+{
+  "table": "Table 9 -- Optional external (cross-species) validation",
+  "status": "not_applicable_by_design",
+  "reason": "Cross-species external validation was outside the scope of this study: it depends on a working predictive model, and the architecture ablation and statistical analysis established that no architecture tried clears chance under the confound-controlled (N2) regime on this benchmark. Recorded explicitly rather than silently omitted.",
+  "decided": "2026-08-23"
+}

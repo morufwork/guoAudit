@@ -1,0 +1,5 @@
+{
+  "n_affected_proteins": 268,
+  "max_length": 1022,
+  "note": "Re-embeds the 268/2,497 (10.7%) proteins exceeding ESM-2's 1,022-residue cap (Section 2.4) under three alternate strategies (C-terminal-kept, full-length, segment-mean-pooled) in place of the default (N-terminal-kept), leaving all other proteins' cached embeddings unchanged, and re-trains Section 3.4's exact MLP protocol on R0/R3 under each. Reports both overall and length-stratified (affected vs. unaffected test pairs) performance."
+}

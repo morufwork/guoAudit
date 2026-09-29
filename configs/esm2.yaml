@@ -1,0 +1,21 @@
+# ESM-2 embedding extraction.
+#
+# Model size chosen for this CPU-only, 4-core, 7.2GB-RAM environment (no GPU
+# detected in the environment setup): esm2_t12_35M_UR50D is a legitimate mid-size ESM-2
+# checkpoint (~0.3-0.6s/sequence on CPU at typical lengths, full extraction
+# ~15-20 min) rather than the largest published variants (650M/3B/15B),
+# which were timed as tractable-but-much-slower (~2-5s/sequence at 150M) and
+# were not chosen given resource constraints. Revisit with a larger variant
+# if this pipeline is ever run on a GPU-equipped machine.
+
+seed: 42
+model_name: facebook/esm2_t12_35M_UR50D
+
+# Longest sequence in the benchmark is 4,910 aa (Q12019); attention is O(L^2)
+# so a hard cap is needed for CPU tractability. 1022 is ESM's own common
+# practical limit (matches ESM-1b's original position-embedding length).
+# 268 of 2,497 proteins (10.7%) exceed this and are truncated — logged
+# explicitly, not silently dropped.
+max_length: 1022
+
+pooling_methods: [mean, cls]

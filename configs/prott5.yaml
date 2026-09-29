@@ -1,0 +1,22 @@
+# ProtT5 embedding extraction (Tier-2 independent-PLM cross-check of the
+# negative-sampling confound finding).
+#
+# Model size chosen for this CPU-only, 4-core, 7.2GB-RAM environment (same
+# constraint documented in configs/esm2.yaml): the commonly-cited
+# ProtT5-XL-UniRef50 (~3B parameters) exceeds this machine's memory and
+# would be far too slow per-sequence on CPU. Rostlab/prot_t5_base_mt_uniref50
+# (~85M encoder parameters, T5-base scale) was timed at ~0.5s/sequence at
+# 500aa and ~1.5s/sequence at the 1022aa cap below -- directly comparable in
+# tractability to the ESM-2 extraction's esm2_t12_35M_UR50D choice, made for the
+# identical documented reason.
+
+seed: 42
+model_name: Rostlab/prot_t5_base_mt_uniref50
+
+# Same cap and justification as configs/esm2.yaml: longest sequence is
+# 4,910 aa (Q12019), attention is O(L^2), so a hard cap is needed for CPU
+# tractability. Kept identical to ESM-2's cap so truncation policy doesn't
+# itself become a confound between the two representations being compared.
+max_length: 1022
+
+pooling_methods: [mean]

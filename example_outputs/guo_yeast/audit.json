@@ -1,0 +1,37 @@
+{
+  "input": {
+    "n_proteins": 2497,
+    "n_pairs": 11188,
+    "n_positive": 5594,
+    "n_negative": 5594
+  },
+  "issues": {
+    "proteins_with_nonstandard_residues": 0,
+    "self_pairs_removed": 0,
+    "rows_reordered_to_canonical": 11188,
+    "exact_duplicate_rows": 24,
+    "reversed_duplicate_rows": 0,
+    "conflicting_label_pairs_removed": 0,
+    "duplicate_pairs_removed": 24
+  },
+  "canonical": {
+    "n_pairs": 11164,
+    "n_positive": 5581,
+    "n_negative": 5583,
+    "n_proteins_in_pairs": 2497,
+    "identical_sequence_groups_size_gt1": 3,
+    "proteins_in_identical_sequence_groups": 8,
+    "sequence_length_median": 461.0,
+    "sequences_longer_than_1022": 268,
+    "proteins_with_zero_positive_degree": 280
+  },
+  "positive_graph": {
+    "nodes": 2217,
+    "edges": 5581,
+    "density": 0.00227,
+    "mean_degree": 5.035,
+    "max_degree": 15,
+    "connected_components": 98,
+    "largest_component": 1631
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+  "clustering_scope": "all 2497 proteins, independently at each threshold, before train/test assignment",
+  "assignment_unit": "MMseqs2 cluster",
+  "coverage": 0.8,
+  "cov_mode": 0,
+  "cluster_mode": 0,
+  "sensitivity": 4.0,
+  "seq_id_mode": 0,
+  "command_template": "mmseqs easy-cluster INPUT OUTPUT TMP --min-seq-id TAU -c 0.8 --cov-mode 0 --cluster-mode 0 -s 4.0 --seq-id-mode 0 -v 1",
+  "test_cluster_pool_fraction": 0.2,
+  "thresholds": {
+    "50": {
+      "n_clusters": 2364,
+      "n_train_pairs": 7227,
+      "n_test_pairs": 450,
+      "train_label_balance": {
+        "0": 3628,
+        "1": 3599
+      },
+      "test_label_balance": {
+        "1": 230,
+        "0": 220
+      },
+      "n_train_proteins": 2004,
+      "n_test_proteins": 407,
+      "n_shared_proteins": 0,
+      "leakage_checks": {
+        "pair_duplicate_leakage": true,
+        "reverse_pair_leakage": true,
+        "protein_disjointness": true,
+        "group_disjointness": true,
+        "label_integrity": true
+      }
+    },
+    "40": {
+      "n_clusters": 2306,
+      "n_train_pairs": 7111,
+      "n_test_pairs": 423,
+      "train_label_balance": {
+        "1": 3595,
+        "0": 3516
+      },
+      "test_label_balance": {
+        "0": 229,
+        "1": 194
+      },
+      "n_train_proteins": 1998,
+      "n_test_proteins": 391,
+      "n_shared_proteins": 0,
+      "leakage_checks": {
+        "pair_duplicate_leakage": true,
+        "reverse_pair_leakage": true,
+        "protein_disjointness": true,
+        "group_disjointness": true,
+        "label_integrity": true
+      }
+    },
+    "30": {
+      "n_clusters": 2236,
+      "n_train_pairs": 7174,
+      "n_test_pairs": 419,
+      "train_label_balance": {
+        "0": 3616,
+        "1": 3558
+      },
+      "test_label_balance": {
+        "1": 213,
+        "0": 206
+      },
+      "n_train_proteins": 2007,
+      "n_test_proteins": 394,
+      "n_shared_proteins": 0,
+      "leakage_checks": {
+        "pair_duplicate_leakage": true,
+        "reverse_pair_leakage": true,
+        "protein_disjointness": true,
+        "group_disjointness": true,
+        "label_integrity": true
+      }
+    },
+    "20": {
+      "n_clusters": 2191,
+      "n_train_pairs": 7043,
+      "n_test_pairs": 445,
+      "train_label_balance": {
+        "1": 3561,
+        "0": 3482
+      },
+      "test_label_balance": {
+        "0": 240,
+        "1": 205
+      },
+      "n_train_proteins": 1996,
+      "n_test_proteins": 420,
+      "n_shared_proteins": 0,
+      "leakage_checks": {
+        "pair_duplicate_leakage": true,
+        "reverse_pair_leakage": true,
+        "protein_disjointness": true,
+        "group_disjointness": true,
+        "label_integrity": true
+      }
+    }
+  }
+}

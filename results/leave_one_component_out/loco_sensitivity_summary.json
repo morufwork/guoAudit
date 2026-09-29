@@ -1,0 +1,13 @@
+{
+  "note": "Leave-one-connected-component-out sensitivity analysis: for each of N0's 19 and N2's 5 components, the ROC-AUC recomputed with that component excluded (tables/leave_one_component_out.csv), plus the specific giant-component-excluded N0-vs-N2 gap for each of the six Section 3.7 architectures (tables/giant_component_excluded_sensitivity.csv).",
+  "direction_persists_all_models": true,
+  "permutation_test_considered_but_degenerate": {
+    "n_union_components": 4,
+    "union_component_sizes": [
+      905,
+      1,
+      1,
+      1
+    ]
+  }
+}

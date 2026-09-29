@@ -1,0 +1,13 @@
+{
+  "homology_threshold_pct": "20",
+  "n_clusters_at_threshold": 2191,
+  "negative_set_sizes": {
+    "n0": 5583,
+    "n2": 5581,
+    "n5": 5581,
+    "n7": 5581
+  },
+  "n7_skipped_homology_exhausted": 0,
+  "n7_same_cluster_pairs_verified_zero": true,
+  "note": "N2/N3/N5 match only on degree and/or length (Section 2.6), never excluding sequence homology. N7 adds a homology exclusion (MMseqs2 clusters at 20% identity, Section 2.3's own clustering, reused here) on top of N5's degree+length matching, so no N7 decoy shares a detectable-homology cluster with the protein it is paired against. Subcellular localization matching is not implemented for the same reason N4 was not constructed (Section 2.6): this dataset carries no GO/localization annotation."
+}

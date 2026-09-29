@@ -1,0 +1,5 @@
+species,variant,train_positive,train_negative,test_positive,test_negative,train_proteins,test_proteins,overlapping_proteins,pair_overlap
+dmelanogaster,n0,17393,16836,4349,4210,6604,3867,3440,0
+dmelanogaster,n2,17393,17393,4349,4349,6870,4719,4558,0
+dmelanogaster,n2_exact,17393,16831,4349,4208,6844,4713,4530,0
+dmelanogaster,n2_nn,17393,17393,4349,4349,6861,4719,4553,0

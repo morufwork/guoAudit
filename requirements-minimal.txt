@@ -1,0 +1,8 @@
+# Enough to run ppi_benchmark_controls.py (demo, run, validate) with AAC+CTD features.
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+threadpoolctl>=3.1
+matplotlib>=3.8
+# optional: xgboost (XGBoost model), h5py (.h5 embeddings), torch + transformers (--esm2)

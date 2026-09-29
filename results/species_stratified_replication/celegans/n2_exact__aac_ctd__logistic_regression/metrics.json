@@ -1,0 +1,17 @@
+{
+  "species": "celegans",
+  "variant": "n2_exact",
+  "representation": "aac_ctd",
+  "model": "logistic_regression",
+  "n_train": 5762,
+  "n_test": 1441,
+  "roc_auc": 0.5379046841276323,
+  "pr_auc": 0.6008522555996486,
+  "f1": 0.6097982708933718,
+  "mcc": 0.032056518422022055,
+  "balanced_accuracy": 0.5153016780415719,
+  "accuracy": 0.5301873698820264,
+  "precision": 0.5597883597883598,
+  "recall": 0.669620253164557,
+  "specificity": 0.36098310291858676
+}

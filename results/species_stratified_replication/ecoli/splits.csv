@@ -1,0 +1,5 @@
+species,variant,train_positive,train_negative,test_positive,test_negative,train_proteins,test_proteins,overlapping_proteins,pair_overlap
+ecoli,n0,4725,5563,1182,1391,1482,1055,961,0
+ecoli,n2,4725,4725,1182,1182,1480,928,870,0
+ecoli,n2_exact,4725,3597,1182,900,1463,914,857,0
+ecoli,n2_nn,4725,4725,1182,1182,1464,907,851,0

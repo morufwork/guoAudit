@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-08-28T13:25:07.890371+00:00",
+  "git_commit": "84d667cd4b19b9c7ece7564d1f0a5134ed9f4789",
+  "git_dirty": true,
+  "python_version": "3.10.16 | packaged by conda-forge | (main, Dec  5 2024, 14:16:10) [GCC 13.3.0]",
+  "platform": "Linux-5.15.0-190-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "split": "random",
+    "model": "mlp",
+    "params": {
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "max_iter": 500,
+      "early_stopping": true
+    },
+    "representation": "aac_ctd",
+    "fusion": "combined"
+  },
+  "package_versions": {
+    "numpy": null,
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.5.2",
+    "matplotlib": "3.10.3",
+    "networkx": "3.4.2",
+    "biopython": "1.81"
+  }
+}

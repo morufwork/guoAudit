@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-08-24T09:59:55.442443+00:00",
+  "git_commit": "7f35d809324bfec9a1d749db088902dbc3771119",
+  "git_dirty": true,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "variants": [
+      "n_terminal",
+      "c_terminal",
+      "full",
+      "segment_mean"
+    ],
+    "splits": [
+      "random",
+      "both_unseen"
+    ],
+    "mlp_params": {
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "max_iter": 500,
+      "early_stopping": true
+    }
+  },
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2",
+    "biopython": "1.88"
+  },
+  "script": "35_truncation_sensitivity.py"
+}

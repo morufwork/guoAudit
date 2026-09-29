@@ -1,0 +1,57 @@
+{
+  "timestamp_utc": "2026-08-28T13:24:06.876464+00:00",
+  "git_commit": "84d667cd4b19b9c7ece7564d1f0a5134ed9f4789",
+  "git_dirty": true,
+  "python_version": "3.10.16 | packaged by conda-forge | (main, Dec  5 2024, 14:16:10) [GCC 13.3.0]",
+  "platform": "Linux-5.15.0-190-generic-x86_64-with-glibc2.35",
+  "seed": 42,
+  "config": {
+    "raw_dir": "data/raw/yeast",
+    "proteins_file": "data/raw/yeast/dictionary/protein.dictionary.tsv",
+    "pairs_file": "data/raw/yeast/actions/protein.actions.tsv",
+    "original_split": {
+      "train_file": "data/raw/yeast/actions/train_cmap.actions.tsv",
+      "test_file": "data/raw/yeast/actions/test_cmap.actions.tsv"
+    },
+    "proteins_columns": [
+      "protein_id",
+      "sequence"
+    ],
+    "pairs_columns": [
+      "protein_a",
+      "protein_b",
+      "label"
+    ],
+    "expected": {
+      "n_proteins": 2497,
+      "n_pairs": 11188,
+      "n_positive": 5594,
+      "n_negative": 5594
+    },
+    "valid_amino_acids": "ACDEFGHIKLMNPQRSTVWY",
+    "seed": 42,
+    "mmseqs_binary": "tools/mmseqs/bin/mmseqs",
+    "thresholds": [
+      0.5,
+      0.4,
+      0.3,
+      0.2
+    ],
+    "coverage": 0.8,
+    "cov_mode": 0,
+    "cluster_mode": 0,
+    "sensitivity": 4.0,
+    "seq_id_mode": 0,
+    "test_cluster_pool_fraction": 0.2
+  },
+  "package_versions": {
+    "numpy": null,
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.5.2",
+    "matplotlib": "3.10.3",
+    "networkx": "3.4.2",
+    "biopython": "1.81"
+  },
+  "script": "03_cluster_sequences.py"
+}

@@ -1,0 +1,21 @@
+# Leakage-resistant dataset splits (R0-R3).
+#
+# R1/R2/R3 share ONE protein-pool partition and ONE training set (pairs with
+# both proteins in the train pool, minus the R1 holdout) — this is the
+# Park-Marcotte C1/C2/C3-style design: train once, evaluate at three
+# increasing difficulty levels, which is what the generalization
+# degradation curve needs. R0 is independent: a naive random pair split
+# ignoring protein identity entirely (the traditional-benchmark reference).
+
+seed: 42
+
+# Fraction of sequence-identity GROUPS (equivalence classes, not raw
+# protein IDs) assigned to the held-out protein pool.
+test_protein_pool_fraction: 0.20
+
+# Fraction of "both proteins in train pool" pairs held out as the R1
+# (seen-seen) test set; the remainder is the shared R1/R2/R3 training set.
+r1_holdout_fraction: 0.20
+
+# R0: independent naive random split of all canonical pairs, ignoring protein identity.
+r0_test_fraction: 0.20

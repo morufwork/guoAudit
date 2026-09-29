@@ -1,0 +1,6 @@
+Pair category,Negative pairs,Positive pairs
+celegans,3914,3950
+dmelanogaster,21046,21742
+ecoli,6954,5907
+other_organism_endpoint,511,61
+unresolved_endpoint,0,18

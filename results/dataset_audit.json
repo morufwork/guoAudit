@@ -1,0 +1,119 @@
+{
+  "dimensions": {
+    "n_proteins": 2497,
+    "n_pairs": 11188,
+    "n_positive": 5594,
+    "n_negative": 5594
+  },
+  "dimensions_match_expected": true,
+  "integrity": {
+    "missing_sequences": 0,
+    "missing_ids": 0,
+    "invalid_amino_acid_rows": 0,
+    "duplicate_protein_ids": 0,
+    "identical_sequences_diff_ids_rows": 8,
+    "duplicated_pairs_exact_rows": 48,
+    "reverse_duplicate_pair_rows": 48,
+    "conflicting_label_rows": 0,
+    "self_interactions": 0,
+    "pairs_referencing_unknown_proteins": 0
+  },
+  "original_split_audit": {
+    "train_pairs": 8950,
+    "test_pairs": 2238,
+    "train_unique_proteins": 2497,
+    "test_unique_proteins": 2078,
+    "protein_overlap_count": 2078,
+    "protein_overlap_fraction_of_test": 1.0,
+    "note": "This is the benchmark's naive random split. Protein overlap between train and test means it must only be used as the conventional baseline, never as evidence of unseen-protein generalization."
+  },
+  "protein_statistics_summary": {
+    "sequence_length": {
+      "min": 55,
+      "max": 4910,
+      "mean": 558.7116539847817,
+      "median": 461.0
+    },
+    "amino_acid_composition": {
+      "A": 0.05492856083027561,
+      "C": 0.011553985619699765,
+      "D": 0.061367511932810696,
+      "E": 0.0692981091718676,
+      "F": 0.042293651436488916,
+      "G": 0.04878349483873234,
+      "H": 0.020737536941716848,
+      "I": 0.06488481495631505,
+      "K": 0.07485325456256635,
+      "L": 0.09568684176007076,
+      "M": 0.02081638416661709,
+      "N": 0.06322400568273454,
+      "P": 0.04322763265507995,
+      "Q": 0.04182271846594839,
+      "R": 0.04482106339101844,
+      "S": 0.08942135455231622,
+      "T": 0.05700080925924466,
+      "V": 0.054685568018992145,
+      "W": 0.009202187938811687,
+      "Y": 0.031390513818692956
+    },
+    "proteins_with_zero_positive_degree": 280,
+    "proteins_with_zero_negative_degree": 76
+  },
+  "network_summary": {
+    "n_nodes": 2217,
+    "n_edges": 5581,
+    "density": 0.0022719908029356353,
+    "n_connected_components": 98,
+    "largest_connected_component_size": 1631,
+    "mean_degree": 5.034731619305368,
+    "median_degree": 5,
+    "max_degree": 15,
+    "average_clustering_coefficient": 0.0031207102925641475,
+    "hub_proteins_top10": [
+      [
+        "P33891",
+        15
+      ],
+      [
+        "P38339",
+        15
+      ],
+      [
+        "P38631",
+        15
+      ],
+      [
+        "Q07657",
+        14
+      ],
+      [
+        "P25357",
+        14
+      ],
+      [
+        "P41814",
+        14
+      ],
+      [
+        "P13712",
+        14
+      ],
+      [
+        "P38555",
+        14
+      ],
+      [
+        "Q00416",
+        14
+      ],
+      [
+        "Q02100",
+        13
+      ]
+    ]
+  },
+  "degree_leakage_signal": {
+    "positive_negative_degree_correlation": -0.5321810300268648,
+    "interpretation": "High correlation suggests high-degree ('hub') proteins are heavily represented in both positive and negative pairs, which a model could exploit via protein identity/degree rather than learning genuine interaction compatibility. Should be re-examined per split in later analyses."
+  }
+}

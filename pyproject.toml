@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppi-benchmark-controls"
+version = "1.0.0"
+description = "Protein-novelty and negative-sampling controls for protein-protein interaction benchmarks (Guo yeast and multi-species)"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["ppi_benchmark_controls"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[project.scripts]
+ppi-benchmark-controls = "ppi_benchmark_controls:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

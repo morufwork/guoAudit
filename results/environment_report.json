@@ -1,0 +1,17 @@
+{
+  "python_version": "3.10.16 | packaged by conda-forge | (main, Dec  5 2024, 14:16:10) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "gpu": {
+    "torch_installed": false,
+    "cuda_available": false,
+    "device_count": 0,
+    "device_names": []
+  },
+  "dataset_hashes": {
+    "proteins_file": "2d4cf209cae4af61836d99b82cff104de2e4e1fcd49046eedd80f42678b22848",
+    "pairs_file": "063928f96c94876a3295d01556144d43794ae94bbac3d374bc3e35d94b9a24a7",
+    "original_split_train": "3a4ade335fdb26287acb3531ede88b5bbbcf58aacb4c164928fba641f93f056e",
+    "original_split_test": "dc458cfd1e6559d8390ffceb3e960aaac51a2d7804a85c7c93ec22b862ae39f6"
+  }
+}
